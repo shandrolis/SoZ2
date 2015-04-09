@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/cutsceneImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shoptitle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="bottom">>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/moneyamount" />
+
+        <TextView
+            android:id="@+id/scoreTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="right">
+
+        <TextView
+            android:id="@+id/akTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Machine Gun:" />
+
+        <Button
+            android:id="@+id/akButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Purchase" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="right">
+
+        <TextView
+            android:id="@+id/shotgunTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(2000m) Shotgun: " />
+
+        <Button
+            android:id="@+id/shotgunButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Purchase" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="right">
+
+        <TextView
+            android:id="@+id/dogsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(200m) Dogs left:" />
+
+        <TextView
+            android:id="@+id/dogsNumberTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/dogsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Purchase" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:gravity="right">
+
+        <TextView
+            android:id="@+id/guardsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(500m) Guards left:" />
+
+        <TextView
+            android:id="@+id/guardsNumberTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/guardButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Purchase" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="right">
+
+        <TextView
+            android:id="@+id/muurTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(1m per unit) Wall left: " />
+
+        <TextView
+            android:id="@+id/muurHealthTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0/900" />
+
+        <Button
+            android:id="@+id/muurButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Purchase Repairs" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/continuegame" />
+
+</LinearLayout>
